@@ -26,6 +26,10 @@ IOGPU 제품군(IOAcceleratorFamily의 후속 제품)과
 일치하는 패턴을 찾지 못했기 때문에 iOS 13.x 및 
 IOAcceleratorFamily를 사용하는 모든 장치(예: macOS)에서만 작동합니다.
 
+
+iOS 13.6으로 인해 익스플로잇을 처음부터 다시 작성해야 했습니다.
+
+
 ![8](8.png)
 ## oob_events.c
 ## IOAccelContext2::finish_fence_event() race condition OOB read/write
