@@ -20,6 +20,12 @@ arm64e의 익스플로잇은 iPhone 9,3 (9/10배 작동)과 달리
 그다지 안정적이지 않으며 많은 커널 패닉이 예상되며 약간의 작업이
 필요하고 이러한 익스플로잇을 일반화하고 모든 장치에서 작동하기는 어렵습니다.
 
+
+IOGPU 제품군(IOAcceleratorFamily의 후속 제품)과 
+함께 제공되는 iOS 14.1을 확인했지만 버그를 유발하는 
+일치하는 패턴을 찾지 못했기 때문에 iOS 13.x 및 
+IOAcceleratorFamily를 사용하는 모든 장치(예: macOS)에서만 작동합니다.
+
 ## oob_events.c
 ## IOAccelContext2::finish_fence_event() race condition OOB read/write
 ```
