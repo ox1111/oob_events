@@ -26,9 +26,6 @@ IOGPU 제품군(IOAcceleratorFamily의 후속 제품)과
 일치하는 패턴을 찾지 못했기 때문에 iOS 13.x 및 
 IOAcceleratorFamily를 사용하는 모든 장치(예: macOS)에서만 작동합니다.
 
-IOGPUFamily는 일부 장치(내 생각에는 A10 이상)에만 있습니다. 
-예를 들어 A8X는 여전히 IOAcceleratorFamily를 사용합니다.
-
 ![8](8.png)
 ## oob_events.c
 ## IOAccelContext2::finish_fence_event() race condition OOB read/write
